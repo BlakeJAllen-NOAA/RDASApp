@@ -15,7 +15,7 @@
 	ignore = all
 [submodule "sorc/fv3-jedi"]
 	path = sorc/fv3-jedi
-	url = https://github.com/jcsda/fv3-jedi
+	url = https://github.com/BlakeJAllen-NOAA/fv3-jedi
 	branch = develop
 	ignore = all
 [submodule "sorc/fv3-jedi-km"]
@@ -55,7 +55,7 @@
 	ignore = all
 [submodule "sorc/ufo"]
 	path = sorc/ufo
-	url = https://github.com/jcsda/ufo
+	url = https://github.com/BlakeJAllen-NOAA/ufo
 	branch = develop
 	ignore = all
 [submodule "sorc/vader"]
@@ -65,16 +65,11 @@
 	ignore = all
 [submodule "sorc/mpas"]
 	path = sorc/mpas
-	url = https://github.com/NOAA-GSL/MPAS-Model
-	branch = gsl/develop
+	url = https://github.com/MPAS-Dev/MPAS-Model
+	branch = release-stable 
 	ignore = all
 [submodule "sorc/mpas-jedi"]
 	path = sorc/mpas-jedi
 	url = https://github.com/JCSDA/mpas-jedi
-	branch = develop
-	ignore = all
-[submodule "sorc/bufr-query"]
-	path = sorc/bufr-query
-	url = https://github.com/NOAA-EMC/bufr-query.git
 	branch = develop
 	ignore = all
