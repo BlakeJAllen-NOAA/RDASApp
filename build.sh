@@ -139,7 +139,7 @@ CMAKE_OPTS+=" -DWORKFLOW_TESTS=${WORKFLOW_BUILD}"
 
 # determine which dycore to use
 if [[ $DYCORE == 'FV3' ]]; then
-  CMAKE_OPTS+=" -DFV3_DYCORE=ON"
+  CMAKE_OPTS+=" -DFV3_DYCORE=ON -DMPAS_DYCORE=OFF"
   builddirs="fv3-jedi iodaconv"
 elif [[ $DYCORE == 'MPAS' ]]; then
   CMAKE_OPTS+=" -DFV3_DYCORE=OFF -DMPAS_DYCORE=ON"
