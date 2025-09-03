@@ -13,16 +13,6 @@
 	url = https://github.com/jcsda/GFDL_atmos_cubed_sphere
 	branch = release-stable
 	ignore = all
-[submodule "sorc/fv3-jedi"]
-	path = sorc/fv3-jedi
-	url = https://github.com/BlakeJAllen-NOAA/fv3-jedi
-	branch = develop
-	ignore = all
-[submodule "sorc/fv3-jedi-km"]
-	path = sorc/fv3-jedi-lm
-	url = https://github.com/JCSDA/fv3-jedi-linearmodel
-	branch = develop
-	ignore = all
 [submodule "sorc/gsibec"]
 	path = sorc/gsibec
 	url = https://github.com/GEOS-ESM/GSIbec
@@ -53,11 +43,6 @@
 	url = https://github.com/jcsda/saber
 	branch = develop
 	ignore = all
-[submodule "sorc/ufo"]
-	path = sorc/ufo
-	url = https://github.com/BlakeJAllen-NOAA/ufo
-	branch = develop
-	ignore = all
 [submodule "sorc/vader"]
 	path = sorc/vader
 	url = https://github.com/jcsda/vader
@@ -79,3 +64,12 @@
 	branch = develop
 	ignore = all
 
+[submodule "sorc/fv3-jedi"]
+	path = sorc/fv3-jedi
+	url = https://github.com/BlakeJAllen-NOAA/fv3-jedi.git
+[submodule "sorc/ufo"]
+	path = sorc/ufo
+	url = https://github.com/BlakeJAllen-NOAA/ufo.git
+[submodule "sorc/fv3-jedi-lm"]
+	path = sorc/fv3-jedi-lm
+	url = https://github.com/JCSDA/fv3-jedi-linearmodel
